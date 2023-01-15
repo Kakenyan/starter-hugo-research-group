@@ -22,3 +22,7 @@ main:
   - name: Contact
     url: contact
     weight: 60
+  - name: Mail
+    parent: contact
+    url: contacat/mail/
+    weight: 10
